@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.63f80aec.css",
+    "main.js": "/static/js/main.84c909b4.js",
+    "static/media/404.gif": "/static/media/404.20048500a40d17e32410.gif",
+    "static/media/form_background.jpg": "/static/media/form_background.528612b91d6549220f4b.jpg",
+    "static/media/donationFact.png": "/static/media/donationFact.b0fc6e6ca24e33ed9e31.png",
+    "static/media/donor_image_1.png": "/static/media/donor_image_1.77892c5853b11d444ecd.png",
+    "static/media/donor_image_2.png": "/static/media/donor_image_2.883e8fa230a9bdba8dcb.png",
+    "static/media/background_img2.jpeg": "/static/media/background_img2.64008ef98988db9e5687.jpeg",
+    "static/media/logo_without_bg.png": "/static/media/logo_without_bg.10f74b6c46d5803c2dfb.png",
+    "static/media/donors_blood_type.png": "/static/media/donors_blood_type.e0c3f6dbcf7331dfe0c0.png",
+    "index.html": "/index.html",
+    "main.63f80aec.css.map": "/static/css/main.63f80aec.css.map",
+    "main.84c909b4.js.map": "/static/js/main.84c909b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63f80aec.css",
+    "static/js/main.84c909b4.js"
+  ]
+}

@@ -5,7 +5,7 @@ require('dotenv').config();
 const express = require('express');  
 
 // importing the database file and make a connection through the database 
-require("./db/connection");
+require("./src/db/connection");
 
 // cookieParser help us to add the cookie to the web browser
 const cookieParser = require('cookie-parser');
@@ -33,14 +33,14 @@ app.use(cookieParser());
 app.use(express.urlencoded({extended:false}));
 
 // require the route path 
-const admin = require('./api/admin');
-const userWeb = require('./router/user');
-const userAPI = require('./api/user');
-const bloodBank = require('./api/bloodBank');
-const bloodCamp = require('./api/bloodCamp');
-const blood = require('./api/blood');
-const search = require('./api/search');
-const router = require('./router/route');
+const admin = require('./src/api/admin');
+const userWeb = require('./src/router/user');
+const userAPI = require('./src/api/user');
+const bloodBank = require('./src/api/bloodBank');
+const bloodCamp = require('./src/api/bloodCamp');
+const blood = require('./src/api/blood');
+const search = require('./src/api/search');
+const router = require('./src/router/route');
 
 
 // defining the first level route path 
